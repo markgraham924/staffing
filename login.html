@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="light.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <meta name="author" content="Mark Graham">
+        <meta name="description" content="Staffing">
+    </head>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <a class="navbar-brand" href="#">Staffing</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>    </header>
+
+    <form action="submit.js">
+        <fieldset>
+            <legend>Login</legend>
+            <br />Username: <br />
+            <input type="text" name="username" autofocus="autofocus" maxlength="12" width="13" required="required">
+            <br />Password: <br />
+            <input type="password" name="password" maxlength="24" width="13" required="required">
+            <br />
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <object data="headers/footer.html" width="100%">Your browser doesn't support this feature</object>
+    </footer>
+</html>
